@@ -23,8 +23,12 @@ function about({}: Props) {
             x:0,
             opacity: 1
         }}
-        src = "https://media.licdn.com/dms/image/D5603AQHvodM0huWEsg/profile-displayphoto-shrink_800_800/0/1669187755159?e=2147483647&v=beta&t=bPY4js-LrzHOry2Vzz4-61qbaFb6z57woAFojF-FLRE"
+        src = "https://i.imgur.com/c8gN5AR.png"
         />
+        <motion.div className = "flex"> 
+            Hello, my name is Shivom Sharma, I'm a Mechatronics & Management Engineering CO-OP Student at McMaster University. I have a strong passion for full-stack development, 
+            
+        </motion.div>
     </div>
   )
 }
