@@ -1,16 +1,14 @@
 import React from 'react'
 import { motion } from "framer-motion"
-
 type Props = {}
 
 function BackgroundAnims({}: Props) {
   return (
-    
 
     <motion.div 
     initial = {{
       opacity: 0,
-
+      
       
     }}
     animate = {{
@@ -27,6 +25,7 @@ function BackgroundAnims({}: Props) {
 
         <div className ="absolute border border-gray-500 rounded-full opacity-40 h-[200px] w-[200px] mt-52 animate-ping bg-blend-luminosity" />
         <div className ="absolute border  border-black-500 opacity-20 rounded-full border-dashed h-[400px] w-[400px] mt-52 animate-pulse" />
+        
     </motion.div>
   )
 }
